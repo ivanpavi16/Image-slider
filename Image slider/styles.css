@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+#close {
+    width: 30px;
+    height: 30px;
+    color: red;
+    font-weight: 800;
+    font-size: 24px;
+    z-index: 10;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    display: none;
+}
+#previous img{
+    position: absolute;
+    z-index: 10;
+    left: 5px;
+    top: 0;
+    width: 30px;
+}
+#next img {
+    position: absolute;
+    z-index: 10;
+    right: -10px;
+    top: 0;
+    width: 30px;
+}
+.images {
+    width: 500px;
+    height: 100%;
+}
+.item {
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.block {
+    display: block;
+}
